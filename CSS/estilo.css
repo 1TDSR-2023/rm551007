@@ -1,5 +1,6 @@
 @import url(cabecalho.css);
 @import url(conteudo.css);
+@import url(break-point.css);
 * {
     margin: 0;
     padding: 0;
@@ -16,4 +17,3 @@ html {
    text-align: center;
    margin: 5% 0;
  }
-
