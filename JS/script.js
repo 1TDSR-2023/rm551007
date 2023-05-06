@@ -77,3 +77,16 @@
 // console.log(frutas);
 // console.log(`O item encontrado no indice depois da remoção foi : ${frutas[indice]}`);
   
+//Concatenação de Arrays
+let nr1 = [1,2,3,4,5];
+let nr2 = [6,7,8,9,10];
+console.log("Array 1 : " + nr1);
+console.log("Array 2 : " + nr2);
+
+//Concatenando os dois arrays em um novo array.
+let nr3 = [...nr1,...nr2];
+console.log("Array 3 : " + nr3);
+
+nr3.forEach( (nr)=>{
+      console.log("Array 3 : " + nr); 
+    } );
