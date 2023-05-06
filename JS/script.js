@@ -29,6 +29,7 @@ botao.addEventListener("click",function(){
     g = Math.round(Math.random()*255)
     b = Math.round(Math.random()*255)
 
+
     //this.setAttribute("style","background-color:rgb("+r+","+g+","+b+");");
     this.setAttribute("style",`background-color:rgb(${r},${g},${b});`);
 
@@ -40,4 +41,9 @@ botao.addEventListener("click",function(){
 //Array
 //Estruturas de repetição
 
-   
+//Declarar um Array
+
+let Array = [1,2,3,4,5,6,7,8,9,10];
+let frutas = ["banana","maçã","pêssego","laranja","limão","melancia","kiwi"];
+console.log(frutas);
+  
