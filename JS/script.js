@@ -25,9 +25,10 @@ botao.addEventListener("click",function(){
    //ceil = Ela arredonda um numero pra cima.
    //round = ele arredonda um numero aleatoriamente.S
     let r=0,g=0,b=0;
-    r = Math.round(Math.random()*255);
-    g = Math.round(Math.random()*255);
-    b = Math.round(Math.random()*255);
+    r = Math.round(Math.random()*255)
+    g = Math.round(Math.random()*255)
+    b = Math.round(Math.random()*255)
+
 
     //this.setAttribute("style","background-color:rgb("+r+","+g+","+b+");");
     this.setAttribute("style",`background-color:rgb(${r},${g},${b});`);
@@ -40,11 +41,9 @@ botao.addEventListener("click",function(){
 //Array
 //Estruturas de repetição
 
-   
-
 //Declarar um Array
 
 let Array = [1,2,3,4,5,6,7,8,9,10];
 let frutas = ["banana","maçã","pêssego","laranja","limão","melancia","kiwi"];
 console.log(frutas);
-
+  
