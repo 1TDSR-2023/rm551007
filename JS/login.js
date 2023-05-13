@@ -3,7 +3,7 @@
 const inputEmail = document.querySelector("#idEmail");
 
 
-inputEmail.addEventListener("keyup", ()=>   {
+inputEmail.addEventListener("click", ()=>   {
 
     const lblEmail = document.querySelector("label[for='idEmail']")
 
